@@ -38,17 +38,17 @@ Let's create a table that we will pass to the model.
 
 Let's create train dataset.
 
-<img src="img/train_data.png" width="400"/>
+<img src="img/train_data.png" width="600"/>
 
 # Prophet Model
 
 Let's train the model with the following parameters.
 
-<img src="img/fb_prophet.png" width="400"/>
+<img src="img/fb_prophet.png" width="600"/>
 
 And then make a prediction with our model.
 
-<img src="img/prophet_prediction.png" width="400"/>
+<img src="img/prophet_prediction.png" width="800"/>
 
 # Anomaly Detection
 
@@ -62,7 +62,7 @@ We can see that we have 8 anomalies in our data.
 
 Let's plot anomaly observations.
 
-<img src="img/prophet_anomaly_plot.png" width="400"/>
+<img src="img/prophet_anomaly_plot.png" width="800"/>
 
 # ARIMA model
 
@@ -80,7 +80,7 @@ Now let's train our model.
 
 After training is over we can make a prediction and plot it.
 
-<img src="img/arima_predictions.png" width="500"/>
+<img src="img/arima_predictions.png" width="800"/>
 
 # Anomaly Detection
 
@@ -94,4 +94,4 @@ If error is bigger than 1.5*(uncertanity) that is anomaly.
 
 ARIMA model found two anomalies in our data. Let's plot it.
 
-<img src="img/arima_anomalies_plot.png" width="500"/>
+<img src="img/arima_anomalies_plot.png" width="800"/>
