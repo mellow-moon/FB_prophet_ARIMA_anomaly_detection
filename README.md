@@ -76,7 +76,7 @@ Let's split the data and set the parameters of ARIMA model.
 
 Now let's train our model.
 
-<img src="img/arima_params.png" width="500"/>
+<img src="img/arima_params.png" width="800"/>
 
 After training is over we can make a prediction and plot it.
 
@@ -86,11 +86,11 @@ After training is over we can make a prediction and plot it.
 
 To detect anomalies we need to calculate our model's errors and confidence intervals.
 
-<img src="img/arima_anomaly_detection.png" width="500"/>
+<img src="img/arima_anomaly_detection.png" width="800"/>
 
 If error is bigger than 1.5*(uncertanity) that is anomaly.
 
-<img src="img/arima_anomalies.png" width="500"/>
+<img src="img/arima_anomalies.png" width="800"/>
 
 ARIMA model found two anomalies in our data. Let's plot it.
 
