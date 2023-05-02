@@ -38,7 +38,7 @@ Let's create a table that we will pass to the model.
 
 Let's create train dataset.
 
-<img src="img/train_data.png" width="600"/>
+<img src="img/train_data.png" width="800"/>
 
 # Prophet Model
 
