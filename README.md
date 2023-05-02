@@ -6,23 +6,23 @@ Anomaly detection using Facebook Prophet and ARIMA methods.
 
 This dataset contains sales data in Walmart stores. Data has 421570 rows and 16 columns.
 
-<img src="img/walmart_df.png" width="400"/>
+<img src="img/walmart_df.png" width="700"/>
 
 In this project we will use only Weekly Sales for Store 1.
 
-<img src="img/weekly_sales_store_one.png" width="400"/>
+<img src="img/weekly_sales_store_one.png" width="800"/>
 
 # Resample Data
 
 We will resample data by day and take the mean values. Below is a plot of resampled dataset.
 
-<img src="img/resampled_weekly_data.png" width="400"/>
+<img src="img/resampled_weekly_data.png" width="800"/>
 
 # Autocorrelation and Partial Autocorrelation
 
 Plot autocorrelation and partial autocorrelation.
 
-<img src="img/autocorr_pacf.png" width="400"/>
+<img src="img/autocorr_pacf.png" width="800"/>
 
 # Holiday Events
 
