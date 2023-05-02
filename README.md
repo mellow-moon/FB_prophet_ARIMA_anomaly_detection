@@ -54,11 +54,11 @@ And then make a prediction with our model.
 
 To detect anomalies we need to calculate our model's errors and confidence intervals. If error is bigger than 1.5*(uncertanity) that is anomaly.
 
-<img src="img/model_performance.png" width="400"/>
+<img src="img/model_performance.png" width="800"/>
 
 We can see that we have 8 anomalies in our data.
 
-<img src="img/anomaly_detection_prophet.png" width="400"/>
+<img src="img/anomaly_detection_prophet.png" width="800"/>
 
 Let's plot anomaly observations.
 
@@ -70,7 +70,7 @@ Let's plot anomaly observations.
 
 Let's split the data and set the parameters of ARIMA model.
 
-<img src="img/arima_data_split.png" width="500"/>
+<img src="img/arima_data_split.png" width="800"/>
 
 # ARIMA Training
 
